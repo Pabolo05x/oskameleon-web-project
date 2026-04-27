@@ -1,5 +1,7 @@
 # 🚗 OSKameleon - Driving School Website
 
+![Podgląd projektu OSKameleon](oskameleon.jpg)
+
 Kompleksowy projekt strony internetowej dla szkoły jazdy OSKameleon. Projekt łączy estetyczny frontend z praktycznymi rozwiązaniami backendowymi, stawiając na wysoką konwersję i wygodę użytkownika.
 
 ## 🚀 Live Demo
