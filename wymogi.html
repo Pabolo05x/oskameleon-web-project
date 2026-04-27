@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wymagania i Wiek - OSKameleon</title>
+    <link rel="icon" href="image_0.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-inter flex flex-col min-h-screen">
+
+    <nav class="bg-white/95 backdrop-blur-sm shadow-md fixed w-full z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html"><img src="image_0.png" alt="Logo OSKameleon" class="h-16 w-auto hover:scale-105 transition-transform"></a>
+                </div>
+                <div class="hidden md:flex space-x-6 items-center">
+                    <a href="index.html#dlaczego-my" class="text-gray-600 hover:text-blue-600 font-medium transition">Dlaczego my?</a>
+                    <a href="oferta.html" class="text-gray-600 hover:text-blue-600 font-medium transition">Oferta</a>
+                    <a href="cennik.html" class="text-gray-600 hover:text-blue-600 font-medium transition">Cennik</a>
+                    <a href="galeria.php" class="text-gray-600 hover:text-blue-600 font-medium transition">Galeria</a>
+                    <a href="blog.html" class="text-blue-600 font-bold transition">Blog</a>
+                    <a href="index.html#opinie" class="text-gray-600 hover:text-blue-600 font-medium transition">Opinie</a>
+                    <a href="index.html#kontakt" class="kameleon-gradient text-white px-6 py-3 rounded-full font-bold hover:shadow-lg hover:shadow-blue-500/30 transition-all hover:-translate-y-1">Zapisz się</a>
+                </div>
+                <div class="md:hidden flex items-center"><button id="mobile-menu-btn" class="text-gray-600 hover:text-blue-600 focus:outline-none"><i class="fas fa-bars text-2xl"></i></button></div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 shadow-lg">
+                <a href="index.html#dlaczego-my" class="block px-3 py-2 text-base font-medium text-gray-700">Dlaczego my?</a>
+                <a href="oferta.html" class="block px-3 py-2 text-base font-medium text-gray-700">Oferta</a>
+                <a href="cennik.html" class="block px-3 py-2 text-base font-medium text-gray-700">Cennik</a>
+                <a href="galeria.php" class="block px-3 py-2 text-base font-medium text-gray-700">Galeria</a>
+                <a href="blog.html" class="block px-3 py-2 text-base font-bold text-blue-600 bg-blue-50">Blog</a>
+                <a href="index.html#opinie" class="block px-3 py-2 text-base font-medium text-gray-700">Opinie</a>
+                <a href="index.html#kontakt" class="block px-3 py-2 text-base font-bold kameleon-text-gradient">Zapisz się</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-16 bg-gray-900 text-white relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-20 hero-bg"></div>
+        <div class="max-w-4xl mx-auto px-4 relative z-10 text-center reveal">
+            <div class="inline-block bg-purple-600 text-white px-4 py-1 rounded-full text-sm font-bold mb-4">Informator</div>
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-6">Wymogi na Prawo Jazdy</h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto">Sprawdź minimalny wiek dla każdej kategorii i dowiedz się, kiedy możesz rozpocząć kurs.</p>
+        </div>
+    </header>
+
+    <main class="flex-grow py-16">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                
+                <div class="bg-white rounded-3xl shadow-lg p-8 border border-gray-100 reveal">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                        <div class="w-10 h-10 bg-red-100 text-red-600 rounded-lg flex items-center justify-center mr-3"><i class="fas fa-motorcycle"></i></div>
+                        Motocykle i Motorowery
+                    </h2>
+                    <ul class="space-y-4">
+                        <li class="flex justify-between items-center border-b border-gray-100 pb-2">
+                            <span class="font-bold text-gray-700">Kategoria AM</span>
+                            <span class="bg-lime-100 text-lime-700 px-3 py-1 rounded-full text-sm font-bold">14 lat</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-gray-100 pb-2">
+                            <span class="font-bold text-gray-700">Kategoria A1</span>
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-bold">16 lat</span>
+                        </li>
+                        <li class="flex justify-between items-center border-b border-gray-100 pb-2">
+                            <span class="font-bold text-gray-700">Kategoria A2</span>
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-bold">18 lat</span>
+                        </li>
+                        <li class="flex justify-between items-center pt-2">
+                            <span class="font-bold text-gray-700">Kategoria A</span>
+                            <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-bold">20 / 24 lata*</span>
+                        </li>
+                    </ul>
+                    <p class="text-xs text-gray-400 mt-4">*20 lat (jeśli posiadasz kat. A2 od min. 2 lat) lub 24 lata.</p>
+                </div>
+
+                <div class="bg-white rounded-3xl shadow-lg p-8 border border-gray-100 reveal delay-100">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                        <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mr-3"><i class="fas fa-car"></i></div>
+                        Samochody i Czterokołowce
+                    </h2>
+                    <ul class="space-y-4">
+                        <li class="flex justify-between items-center border-b border-gray-100 pb-2">
+                            <span class="font-bold text-gray-700">Kategoria B1</span>
+                            <span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full text-sm font-bold">16 lat</span>
+                        </li>
+                        <li class="flex justify-between items-center pt-2">
+                            <span class="font-bold text-gray-700">Kategoria B</span>
+                            <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-bold">18 lat</span>
+                        </li>
+                    </ul>
+                    <div class="mt-8 bg-blue-50 p-4 rounded-xl text-sm text-blue-800 border border-blue-100">
+                        <i class="fas fa-info-circle mr-2"></i> Kategoria B1 pozwala na prowadzenie czterokołowców ciężkich.
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl shadow-xl p-8 md:p-12 border border-gray-100 reveal mb-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6">Wymogi ogólne dla każdej kategorii</h2>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <i class="fas fa-check-circle text-lime-500 text-xl mt-1 mr-4"></i>
+                        <div>
+                            <strong class="block text-gray-900">Orzeczenie lekarskie</strong>
+                            <p class="text-gray-600">Niezbędne jest orzeczenie o braku przeciwwskazań zdrowotnych do kierowania pojazdem.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fas fa-check-circle text-lime-500 text-xl mt-1 mr-4"></i>
+                        <div>
+                            <strong class="block text-gray-900">Miejsce zamieszkania</strong>
+                            <p class="text-gray-600">Należy przebywać na terytorium Rzeczypospolitej Polskiej co najmniej przez 185 dni w roku.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <div class="bg-gradient-to-br from-blue-600 to-blue-800 text-white rounded-3xl p-8 shadow-lg reveal">
+                    <div class="text-4xl mb-4 text-blue-300"><i class="fas fa-hourglass-start"></i></div>
+                    <h3 class="text-2xl font-bold mb-3">Zacznij 3 miesiące wcześniej!</h3>
+                    <p class="text-blue-100 leading-relaxed">
+                        Nie musisz czekać do urodzin! Osoba ubiegająca się o prawo jazdy może rozpocząć szkolenie już na <strong>3 miesiące przed</strong> osiągnięciem wymaganego minimalnego wieku.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-3xl p-8 shadow-lg border-l-8 border-yellow-400 reveal delay-100">
+                    <div class="text-4xl mb-4 text-yellow-500"><i class="fas fa-user-friends"></i></div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Zgoda Rodzica</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Osoba, która nie ukończyła 18 lat, może rozpocząć szkolenie oraz uzyskać prawo jazdy wyłącznie za <strong>pisemną zgodą rodzica lub opiekuna prawnego</strong>.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="mt-12 text-center">
+                 <a href="blog.html" class="text-blue-600 font-bold hover:underline"><i class="fas fa-arrow-left mr-2"></i> Wróć do listy artykułów</a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-[#0f172a] text-gray-400 py-12 border-t border-gray-800/50 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12 text-center md:text-left">
+                
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-2">OSKameleon</h4>
+                    <p class="text-xs text-gray-500 font-mono mb-4">NIP: 695 135 37 35</p>
+                    
+                    <p class="text-sm leading-relaxed mb-6">
+                        Twoja szkoła jazdy w Legnicy i Jaworze. Profesjonalizm, spokój i nowoczesne podejście do szkolenia kierowców.
+                    </p>
+                    
+                    <div class="p-4 bg-gray-800/50 rounded-xl border border-gray-700/50">
+                        <p class="text-xs font-bold text-gray-300 uppercase mb-1">Dane do wpłat:</p>
+                        <p class="text-sm text-white font-mono">Credit Agricole</p>
+                        <p class="text-sm text-blue-400 font-mono font-bold tracking-wide">10 1940 1076 5172 6977 0000 0000</p>
+                        <p class="text-xs text-gray-500 mt-1">Tytuł: Imię i Nazwisko + Kategoria</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Szybkie linki</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="Katb.html" class="hover:text-blue-500 transition flex items-center justify-center md:justify-start"><i class="fas fa-chevron-right text-xs mr-2 text-gray-600"></i> Kategoria B</a></li>
+                        <li><a href="motocylke.html" class="hover:text-blue-500 transition flex items-center justify-center md:justify-start"><i class="fas fa-chevron-right text-xs mr-2 text-gray-600"></i> Motocykle</a></li>
+                        <li><a href="KatAM.html" class="hover:text-blue-500 transition flex items-center justify-center md:justify-start"><i class="fas fa-chevron-right text-xs mr-2 text-gray-600"></i> Kategoria AM</a></li>
+                        <li><a href="KatAMCZ.html" class="hover:text-blue-500 transition flex items-center justify-center md:justify-start"><i class="fas fa-chevron-right text-xs mr-2 text-gray-600"></i> Microcar</a></li>
+                        <li class="pt-2"><a href="cennik.html" class="text-white hover:text-blue-400 transition font-bold">Zobacz Cennik</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Kontakt</h4>
+                    
+                    <div class="mb-4 text-sm flex flex-col items-center md:items-start">
+                        <span class="text-gray-500 text-xs uppercase font-bold mb-1">Adres biura:</span>
+                        <span class="text-white"><i class="fas fa-map-pin mr-2 text-lime-500"></i>ul. Armii Krajowej 12/9</span>
+                        <span class="pl-6">59-400 Jawor</span>
+                    </div>
+
+                    <p class="text-sm mb-2 hover:text-white transition"><a href="tel:+48693397973"><i class="fas fa-phone mr-2 text-blue-500"></i> 693 397 973</a></p>
+                    <p class="text-sm mb-6 hover:text-white transition"><a href="mailto:biuro@oskameleon.pl"><i class="fas fa-envelope mr-2 text-purple-500"></i> biuro@oskameleon.pl</a></p>
+                    
+                    <a href="https://www.facebook.com/OSKameleon" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-[#1877F2] text-white text-sm font-bold rounded-full hover:bg-blue-600 transition shadow-lg hover:shadow-blue-500/30">
+                        <i class="fab fa-facebook fa-lg mr-2"></i> Facebook
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm font-medium text-gray-600 gap-4">
+                <div class="flex flex-col md:flex-row gap-2 md:gap-4 text-center md:text-left">
+                    <p>© 2026 Szkoła Jazdy OSKameleon.</p>
+                    <span class="hidden md:inline text-gray-700">|</span>
+                    <a href="https://sosinskiweb.pl" target="_blank" class="hover:text-blue-400 transition flex items-center justify-center gap-2 group">
+                        Projekt i realizacja: <span class="text-gray-400 group-hover:text-white font-bold transition">SosinskiWeb</span>
+                    </a>
+                </div>
+
+                <div class="flex gap-6">
+                    <a href="pp.html" class="hover:text-white transition">Polityka Prywatności</a>
+                    <a href="#" class="hover:text-white transition">Regulamin</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
